@@ -4,7 +4,7 @@ Ce projet met en communication des véhicules connectés via le protocole **MQTT
 
 ---
 
-## 🗂 Structure du projet
+##  Structure du projet
 
 ```
 ├── ca.py                     # Autorité de Certification (CA)
@@ -23,9 +23,9 @@ Ce projet met en communication des véhicules connectés via le protocole **MQTT
 
 ---
 
-## 🛠 Instructions de test
+##  Instructions de test
 
-### ✅ Question 0 – Lancer la CA
+###  Question 0 – Lancer la CA
 
 ```bash
 python ca.py
@@ -37,7 +37,7 @@ python ca.py
 
 ---
 
-### ✅ Question 1 – Demande de certificats
+### Question 1 – Demande de certificats
 
 ```bash
 python client.py A
@@ -53,7 +53,7 @@ Chaque client :
 
 ---
 
-### ✅ Question 2 – Message sécurisé de A vers B
+###  Question 2 – Message sécurisé de A vers B
 
 1. Lancer d’abord le récepteur :
 
@@ -72,7 +72,7 @@ python client_A.py
 
 ---
 
-### ✅ Question 3 – Délégation de certification de C à D
+###  Question 3 – Délégation de certification de C à D
 
 1. Extraire la clé publique de D :
 
@@ -100,13 +100,15 @@ python client_D_q3.py
 
 ---
 
-## ℹ️ Remarques
+## ℹ Remarques
 
 - Il y a des redondances de code **volontaires** pour rendre chaque question indépendante.
 - Cela garantit que chaque étape fonctionne isolément sans altération accidentelle.
 
 ---
 
-## 📋 Auteurs
+## Auteurs
 
-- Projet réalisé dans le cadre du module INFO402.
+- Projet réalisé dans le cadre du module RT0806.
+
+
